@@ -1,0 +1,16 @@
+{
+  "name": "mobile-monitoring-system",
+  "version": "1.0.0",
+  "description": "A full-stack mobile monitoring system with admin panel and real-time control",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "node backend/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "lowdb": "^5.0.0"
+  }
+}
